@@ -6,6 +6,8 @@ Makes life easier by scraping instead of searching for each and every organisati
 + BeautifulSoup
 + Requests
 
+### Instructions :
++ Install the requirements using pip and run `./scrape.py`
 
 ### TODOs :
 + Make the code run faster.
