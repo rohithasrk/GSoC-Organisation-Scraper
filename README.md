@@ -12,10 +12,8 @@ Makes life easier by scraping instead of searching for each and every organisati
 
 ### TODOs :
 + Make the code run faster.
-+ ~~ Make it working for years other than 2016 too. ~~
 + Making it look better.
 + Remove multiple results.
 + Change the default colors
-+ ~~ Add number of times an organisation has appeared in past few years.~~
 
 PRs are welcome.
