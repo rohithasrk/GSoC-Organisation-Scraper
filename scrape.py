@@ -1,7 +1,16 @@
+#!/usr/bin/env python
 import requests
 from BeautifulSoup import BeautifulSoup
+import signal
+import sys
 
-
+def signal_handler(signal, frame):
+  confirmation = raw_input("really want to exit(y/n)?")
+  if confirmation=='y':
+    sys.exit(0)
+  else :
+    return
+signal.signal(signal.SIGINT, signal_handler)
 user_pref = raw_input("Enter a technology of preference: ")
 user_pref = user_pref.lower()
 user_pref.replace(" ","")
