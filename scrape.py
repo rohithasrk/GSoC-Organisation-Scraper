@@ -22,6 +22,7 @@ count = 0
 
 url = "https://summerofcode.withgoogle.com/archive/2016/organizations/"
 default = "https://summerofcode.withgoogle.com"
+prev_url = "https://www.google-melange.com/archive/gsoc/"
 response = requests.get(url)
 html = response.content
 
@@ -38,7 +39,8 @@ for org in orgs:
   tags = soup.findAll('li', attrs={'class':'organization__tag organization__tag--technology'})
   for tag in tags:
     if user_pref in tag.text:
-      print "Name: "+org_name+" Link: "+org_link
+      print "Name: "+org_name
+      print "Link: "+org_link+'\n'
       count += 1
 
 if count == 0:
