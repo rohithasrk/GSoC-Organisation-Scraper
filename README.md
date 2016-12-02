@@ -7,7 +7,8 @@ Makes life easier by scraping instead of searching for each and every organisati
 + Requests
 
 ### Instructions :
-+ Install the requirements using pip and run `./scrape.py`
++ `[sudo] pip install -r requirements.txt`
++ `python scrape.py`
 
 ### TODOs :
 + Make the code run faster.
