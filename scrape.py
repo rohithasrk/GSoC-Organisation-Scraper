@@ -11,6 +11,7 @@ def signal_handler(signal, frame):
   else :
     return
 signal.signal(signal.SIGINT, signal_handler)
+
 user_pref = raw_input("Enter a technology of preference: ")
 user_pref = user_pref.lower()
 user_pref.replace(" ","")
