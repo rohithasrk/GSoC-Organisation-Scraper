@@ -48,6 +48,21 @@ def scrape():
   if count == 0:
     print "Enter a valid technology name."
 
+def no_of_times_before_2016(org_name):
+  count = 0
+  for i in range(2009,2016):
+    year_url = prev_def_url + str(i)
+    response = requests.get(year_url)
+    html = response.content
+    soup = BeautifulSoup(html)
+    orgs = soup.findAll('li', attrs={'class':'mdl-list__item mdl-list__item--one-line'})
+    for org in orgs:
+      name = org.find('a').text
+      if org_name==name:
+        count += 1
+        break
+  return count
+
 if __name__=="__main__":
   scrape()
   
