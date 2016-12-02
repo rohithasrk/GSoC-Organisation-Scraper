@@ -5,11 +5,14 @@ import signal
 import sys
 
 def signal_handler(signal, frame):
-  confirmation = raw_input("really want to exit(y/n)?")
-  if confirmation=='y':
+  confirmation = raw_input("Really want to exit (y/n)? ")
+  confirmation.replace(" ","")
+  confirmation = confirmation.lower()
+  if confirmation == "y" or confirmation == "yes":
     sys.exit(0)
   else :
     return
+
 signal.signal(signal.SIGINT, signal_handler)
 
 user_pref = raw_input("Enter a technology of preference: ")
