@@ -1,0 +1,150 @@
+AbiWord
+Apache Software Foundation
+Apertium
+ASCEND
+Battle for Wesnoth
+BeagleBoard.org
+Berkman Center at Harvard University
+BigBlueButton
+Blender Foundation
+BlueZ
+Boost C&#43;&#43; Libraries
+CGAL - Computational Geometry Algorithms Library
+Chromium
+coreboot
+Creative Commons
+Crystal Space
+Debian Project
+Django Software Foundation
+DocBook Project
+Dojo Foundation
+DragonFly BSD
+Dreamwidth Studios
+Drizzle
+Drupal
+DuraSpace
+Etherboot Project
+European Smalltalk User Group (ESUG)
+European Space Agency, The Advanced Concepts Team
+Expert Labs
+Facebook
+FFmpeg
+FreedroidRPG
+Freenet Project Inc
+Freifunk
+GCC, the GNU Compiler Collection
+Geeklog
+GenMAPP, Cytoscape, WikiPathways &amp; Reactome
+Gentoo Foundation
+Gephi NGO
+Git
+GNOME
+GNU Image Manipulation Program - GIMP
+Go OpenOffice
+Google Caja
+Google Open Source Programs Office
+Grameen Foundation
+GStreamer
+Haiku
+haskell.org
+Hugin and panotools
+Inclusive Design Institute
+Inkscape
+International GeoGebra Institute
+Jikes RVM
+KDE
+Kernel.org - the Linux Kernel Organization
+LimeSurvey
+LLVM Compiler Infrastructure
+LXDE Project
+Maemo Community
+Mapnik
+Marine Biological Laboratory Biodiversity Informatics Group-Encyclopedia of Life Project
+Melange
+Mercurial Distributed Version Control System
+MetaBrainz Foundation Inc.
+MINIX 3 Group at the VU
+Mixxx Digital DJ
+MoinMoin Wiki
+Mozilla
+Natural User Interface Group (NUI Group)
+NESCent - National Evolutionary Synthesis Center
+Nmap Security Scanner
+OAR
+OMII-UK
+Open Bioinformatics Foundation
+Open Source Computer Vision Library
+OpenAFS
+OPeNDAP, Inc.
+OpenICC
+OpenImageIO
+OpenInkpot project
+OpenMRS
+OpenNebula
+OpenStreetMap
+Opticks
+Oregon State University Open Source Lab
+OSGeo - Open Source Geospatial Foundation
+Pardus
+phpMyAdmin
+Pidgin, Finch and libpurple
+Plan 9 from Bell Labs
+Plone Foundation
+PLSE at UW
+Portland State University
+PostgreSQL
+Princeton Center for Information Technology Policy
+Puppet (Reductive Labs)
+Python Software Foundation
+QEMU development team
+R Project for Statistical Computing
+Review Board
+Rockbox
+RTEMS Project
+Sahana Software Foundation
+Sakai Foundation
+Samba
+Scilab Consortium/Digiteo Foundation
+ScummVM
+Selenium
+SharpDevelop
+Simple DirectMedia Layer
+SIP Communicator
+StatusNet
+Sugar Labs
+Sunlight Labs
+Systers: Women in Computing
+Tahoe-LAFS
+Tcl/Tk Community
+The Asterisk Project
+The Codehaus
+The Eclipse Foundation
+The FreeBSD Project
+The Globus Alliance
+The GNU Project
+The Honeynet Project
+The Java Pathfinder Team
+The Linux Foundation
+The MacPorts Project
+The Mono Project
+The NetBSD Foundation
+The ns-3 Network Simulator Project
+The NTP Forum
+The Perl Foundation
+The Tor Project/Electronic Frontier Foundation
+The Wine Project
+Thousand Parsec
+Tux4Kids
+TYPO3 Association
+Ubuntu
+Ushahidi
+VideoLAN
+Wikimedia Foundation
+WordPress
+WorldForge
+wxWidgets
+X.Org
+xen.org
+XMMS2
+XMPP Standards Foundation
+YafaRay (Yet Another Free Raytracer)

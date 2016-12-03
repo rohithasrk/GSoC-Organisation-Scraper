@@ -1,0 +1,134 @@
+52°North Initiative for Geospatial Open Source Software GmbH
+Africa Soil Information Service
+Apache Software Foundation
+ASCEND
+BeagleBoard.org
+BEAM Community
+Bika Open Source LIMS Collective
+Biomedical Informatics, Emory University
+Boost C&#43;&#43; Libraries
+Boston University / XIA
+BRL-CAD
+Buildbot
+BuildmLearn
+CCExtractor development
+CentOS Project
+Ceph Storage
+CERN SFT
+Cesium Community
+CiviCRM
+Clojure
+CloudCV
+Copyleft Games
+coreboot
+DBpedia &amp; DBpedia Spotlight
+Debian Project
+Department of Biomedical Informatics, Stony Brook University
+Drupal
+Encyclopedia of Life
+FFmpeg
+FOSSASIA
+Foundation for Learning Equality
+FreeBSD
+Ganeti
+GCC - GNU Compiler Collection
+Git
+GitHub
+Global Alliance for Genomics &amp; Health
+GNOME
+GNSS-SDR
+GNU Mailman
+GNU Project
+Google Kubernetes
+haskell.org
+HPCC Systems®
+Institute for Artificial Intelligence
+Interactive Spaces
+International GeoGebra Institute
+International Neuroinformatics Coordinating Facility
+IP-over-P2P Project
+JBoss Community
+JdeRobot - Universidad Rey Juan Carlos
+jQuery Foundation
+KDE
+LabLua
+LibreOffice
+Liquid Galaxy Project
+LLVM Compiler Infrastructure
+lmonade: scientific software distribution
+lowRISC
+MariaDB
+MBDyn, Department of Aerospace Engineering at the Polytechnic University of Milan
+MEDES-IMPS
+MetaBrainz Foundation Inc.
+MinnowBoard Project
+MIT Media Lab
+Mono Project
+Moodle
+Network Time Foundation
+Nmap Security Scanner
+NumFOCUS
+OncoBlocks
+Open Source Computer Vision Library (OpenCV)
+Open Source Robotics Foundation
+OpenKeychain (OpenPGP for Android)
+OpenMRS
+OpenStreetMap
+Openwall
+Oregon State University Open Source Lab (OSUOSL)
+OSGeo - Open Source Geospatial Foundation
+P2PSP.org
+PaGMO / PyKEP
+Pencil Code Foundation
+phpMyAdmin
+Pidgin, Finch, and libpurple
+PLASMA @ UMass
+Portable Native Client
+Portland State University
+PostgreSQL Project
+Privly Foundation
+Python Software Foundation
+QEMU
+R Project for Statistical Computing
+Red Hen Lab
+RIOT
+RoboComp
+RouteFlow
+Rspamd spam filtering system
+RTEMS Project
+Ruby
+Ruby on Rails
+Ruby Science Foundation
+Sage Mathematical Software System
+Saros
+Scala Team
+Scilab Enterprises
+strace
+Subsurface
+Sugar Labs
+Sustainable Computing Research Group ( SCoRe )
+Systers, an Anita Borg Institute Community
+TARDIS SN
+TEAMMATES @ National University of Singapore
+The Concord Consortium
+The Eclipse Foundation
+The Fedora Project
+The Honeynet Project
+The MacPorts Project
+The ns-3 Network Simulator Project
+The OpenBSD Foundation
+The OpenCog Foundation
+The Processing Foundation
+The STE||AR Group
+The syslog-ng project
+The Visualization Toolkit
+The Wine Project
+Tox
+Tux4Kids
+University of Nebraska - Helikar Lab
+Wikimedia Foundation
+WSO2
+X.Org Foundation
+XBMC Foundation
+Xiph.Org Foundation
+XMPP Standards Foundation

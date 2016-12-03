@@ -1,0 +1,187 @@
+52°North Initiative for Geospatial Open Source Software GmbH
+AerospaceResearch.Net
+Amahi
+Apache Software Foundation
+Apertium
+appleseed
+Arches Project
+Association Tatoeba
+Battle for Wesnoth
+BeagleBoard.org
+BEAM Community
+Benetech
+Bio4j
+BioJavaScript
+Biomedical Informatics, Emory University
+Blender Foundation
+Bookie
+Boost C&#43;&#43; Libraries
+BRL-CAD
+Buildbot
+BuildmLearn
+BumbleBee Autonomous Underwater Vehicle (BBAUV)
+Catrobat (formerly Catroid Project)
+CCExtractor development
+Centre for Computational Medicine, SickKids Research Institute
+Ceph
+CERN SFT
+Checkstyle
+CiviCRM
+Clojure
+CodeCombat
+CodeMirror
+Computational Science and Engineering at TU Wien
+Copyleft Games
+coreboot
+Crypto Stick
+Crystal Space
+DBpedia &amp; DBpedia Spotlight
+Debian Project
+Django Software Foundation
+Dr. Memory
+Drupal
+Flowgrammable
+FOSSASIA
+FreeBSD
+Freenet Project Inc
+Freifunk
+Frenetic
+Gambit: Software Tools for Game Theory
+Ganeti
+Ganglia
+GCC - GNU Compiler Collection
+Gentoo Foundation
+Git
+GNOME
+GNSS-SDR
+GNU Octave
+GNU Project
+GNU Radio
+Google Open Source Programs Office
+Grameen Foundation - MOTECH
+Groovy Community
+Haiku
+haskell.org
+Health Information Systems Programme
+HelenOS group at Department of Distributed and Dependable Systems, Charles University in Prague
+Inclusive Design Institute
+Inkscape
+Institute for Artificial Intelligence
+International Neuroinformatics Coordinating Facility
+Italian Mars Society
+JBoss Community
+Jitsi
+jMonkeyEngine
+Joomla! (Open Source Matters)
+KDE
+KolibriOS Project Team
+LabLua
+Laboratory for Cosmological Data Mining
+LEAP Encryption Access Project
+LibreOffice
+Linaro
+Linux Trace Toolkit next generation project (LTTng)
+Liquid Galaxy Project
+LLVM Compiler Infrastructure
+lmonade: scientific software distribution
+LyX – The Document Processor
+MariaDB
+Melange
+MetaBrainz Foundation Inc.
+Mifos Initiative
+Mixxx DJ Software
+mlpack: scalable C&#43;&#43; machine learning library
+Monkey Project
+Mono Project
+Moodle
+Mozilla
+MuseScore
+National Resource for Network Biology (NRNB)
+Netfilter Project
+NetSurf
+Nmap Security Scanner
+OGDF - Open Graph Drawing Framework
+Open Bioinformatics Foundation
+Open Education Resource Foundation
+Open Lighting Project
+Open Motion Planning Library
+Open Source Computer Vision Library (OpenCV)
+Open Source Robotics Foundation
+OpenKeychain (OpenPGP for Android)
+OpenMRS
+openSUSE
+Oregon State University Open Source Lab (OSUOSL)
+OSGeo - Open Source Geospatial Foundation
+OSv
+oVirt
+OWASP Foundation
+phpBB Forum Software
+phpMyAdmin
+Plan 9 from Bell Labs
+Plone Foundation
+Point Cloud Library (PCL)
+Portland State University
+PostgreSQL Project
+PRISM Model Checker
+Project Tox
+Public Laboratory for Open Technology and Science
+Python Software Foundation
+QEMU
+R Project for Statistical Computing
+Raxa
+RouteFlow
+RTEMS Project
+Ruby on Rails
+Ruby Science Foundation (SciRuby)
+Sage Mathematical Software System
+Sahana Software Foundation
+Samba
+Scaffold Hunter
+Scala Team
+ScummVM
+Shogun Machine Learning Toolbox
+Sigmah
+Software Freedom Conservancy, Inc.
+Steel Bank Common Lisp
+strace
+Stratosphere Project
+Subsurface
+Sugar Labs
+SuperTuxKart
+Swathanthra Malayalam Computing
+SymPy
+SyncDiff(erent)
+Systers, an Anita Borg Institute Community
+TEAMMATES Project @ National University of Singapore
+The CGAL Project
+The Concord Consortium
+The Eclipse Foundation
+The Fedora Project
+The Julia Language
+The Linux Foundation
+The MacPorts Project
+The ns-3 Network Simulator Project
+The OpenBSD Foundation
+The OpenCog Foundation
+The OpenStack Foundation
+The Perl Foundation
+The Privly Foundation
+The Processing Foundation
+The STE||AR Group
+The syslog-ng project
+The Tor Project and EFF
+The Wine Project
+The Wiselib
+ThinkUp
+TimVideos.us
+Twitter
+TYPO3 Association
+Visualization Toolkit (VTK)
+Wikimedia
+WordPress
+WorldForge
+WSO2
+wxWidgets
+X.Org Foundation
+Xapian Search Engine Library
+Xen Project

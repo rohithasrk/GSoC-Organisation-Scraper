@@ -1,0 +1,179 @@
+52°North Initiative for Geospatial Open Source Software GmbH
+abiword
+Ankur India
+Apache Software Foundation
+Apertium
+Artica ST ( Pandora FMS )
+ASCEND
+Battle For Wesnoth
+Benetech
+Berkman Center for Internet &amp; Society at Harvard University
+biographer
+Blender Foundation
+Bloomington, IN
+BlueZ
+BOINC project, University of California, Berkeley
+BRL-CAD
+Catroid Project
+CERN SFT
+CGAL - Computational Geometry Algorithms Library
+Climate Code Foundation
+Clojure/dev
+CMUSphinx
+Code for America
+Computational Science and Engineering at TU Wien
+Connexions
+Creative Commons
+Crowdsourcing Biology
+Crystal Space
+DBpedia Spotlight
+Debian Project
+Dept. of Biomedical Informatics, Emory University
+Differ
+Digital Mars
+Django Software Foundation
+DocBook Project
+DragonFly BSD
+Drizzle
+Drupal
+e-cidadania
+Electronic Frontier Foundation/The Tor Project
+ESUG (European Smalltalk User Group)
+Evergreen
+Formal Systems Laboratory at UIUC
+FOSSASIA
+FreeBSD
+Freenet Project Inc
+Freeseer recording and streaming suite
+freifunk
+GCC - GNU Compiler Collection
+Genome Informatics
+Gentoo Foundation
+Gephi Consortium
+GIMP
+Git
+GNOME
+GNU Project
+Google Open Source Programs Office
+Grassroots DICOM
+GStreamer
+Haiku
+haskell.org
+Hedgewars Project
+HelenOS group at Department of Distributed and Dependable Systems, Charles University in Prague
+illumos
+Inclusive Design Institute
+Inkscape
+Interface Ecology Lab @ Texas A&amp;M University
+International GeoGebra Institute
+International Neuroinformatics Coordinating Facility
+iPXE
+JBoss Community
+Jikes RVM
+Joomla!
+JRuby
+KDE
+Kernel.org - the Linux Kernel Organization
+Komodo OpenLab
+Learning Unlimited, Inc.
+Libav
+LibreOffice
+Liquid Galaxy Project
+Measurement Lab
+Melange
+MetaBrainz Foundation Inc.
+Metalink
+MINIX 3
+MIT Center for Mobile Learning @ The Media Lab
+Mixxx DJ Software
+MoinMoin Wiki
+Monkey HTTP Daemon
+Mono Project
+Moodle
+Mozilla
+mySociety
+National Evolutionary Synthesis Center
+National Resource for Network Biology (NRNB)
+Natural User Interface Group
+Network Time
+New Visions for Public Schools
+Ninux.org
+Nmap Security Scanner
+OGDF - Open Graph Drawing Framework
+OGRE (Object-Oriented Graphics Rendering Engine)
+Open Bioinformatics Foundation
+Open Lighting Project
+Open Source Computer Vision Library (OpenCV)
+Opencast Matterhorn
+OpenCog Foundation
+OpenFlowHub
+OpenICC
+OpenImageIO
+OpenIntents
+OpenMRS
+OpenNMS
+OpenStreetMap
+openSUSE
+Openwall
+Orange – Data Mining Fruitful &amp; Fun
+Oregon State University Open Source Lab (OSUOSL)
+OSGeo - Open Source Geospatial Foundation
+OWASP Foundation
+PacketFence
+Parrot Foundation
+phpBB Forum Software
+phpMyAdmin
+Pidgin, Finch, and libpurple
+Point Cloud Library (PCL)
+Portland State University
+PostgreSQL Project
+Processing
+PulseAudio
+Puppet Labs
+Python Software Foundation
+R project for statistical computing
+Raxa
+Review Board
+RooStats
+RTEMS Project
+Sage Mathematical Software System
+Sahana Software Foundation
+Sakai Project
+Samba
+Scala Team
+Scilab
+Scribus
+ScummVM
+Shogun Machine Learning Toolbox
+Sigmah
+SilverStripe
+SimpleCV
+Statistics Online Computational Resource
+Stellarium
+SWIG
+SymPy
+Systers
+The Concord Consortium
+The Eclipse Foundation
+The Fedora Project
+The Gambit Project
+The Honeynet Project
+The Java Pathfinder Team
+The Linux Foundation
+The LLVM Compiler Infrastructure
+The NetBSD Foundation
+The ns-3 Network Simulator Project
+The Outercurve Foundation
+The Wiselib
+Tianocore
+Tux4Kids
+Twitter
+Umit Project
+Unknown Horizons and FIFE
+Wikimedia Foundation
+Wine (a project of Software Freedom Conservancy)
+WorldForge
+Xapian Search Engine Library
+XBMC Foundation
+XMPP Standards Foundation
+XWiki

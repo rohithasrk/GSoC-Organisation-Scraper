@@ -1,0 +1,150 @@
+AbiWord
+ASCEND
+Association Gephi
+Atheme.org
+Audacity
+Battle for Wesnoth
+Berkman Center at Harvard University
+Blender Foundation
+BlueZ
+Boost C&#43;&#43; Libraries
+BRL-CAD
+BZFlag
+Center for the Study of Complex Systems, Univ of Michigan
+Chromium
+Comprehensive C Archive Network
+coreboot
+Creative Commons
+Crystal Space
+Debian
+Django Software Foundation
+DragonFly BSD
+Drupal
+DSpace Foundation
+Eclipse Foundation
+ES Operating System
+Etherboot Project
+Fedora Project &amp; JBoss.org (Red Hat)
+FFmpeg
+Fiji
+Free Software Initiative of Japan
+Freifunk
+GCC
+Geeklog
+GenMAPP
+Gentoo
+Git Development Community
+GNOME
+GNU Image Manipulation Program
+GNU Project
+Go OpenOffice
+Google&#39;s Open Source Programs Office
+GStreamer
+Hackystat
+Haiku
+haskell.org
+Hugin/Panotools
+Inkscape
+Jato
+Joomla!
+KDE
+LimeSurvey
+LLVM Compiler Infrastructure
+Maemo Community
+Melange
+Mercurial (a member of the Software Freedom Conservancy)
+MetaBrainz Foundation
+Mifos
+MINIX 3
+MoinMoin Wiki
+Mono Project
+Moodle
+Mozilla Project
+MySQL
+National Center for Supercomputing Applications
+Native Client
+Natural User Interface Group
+NESCent - National Evolutionary Synthesis Center
+NetSurf
+Nmap Security Scanner
+NTP Project
+OAR
+OGRE
+OMII-UK
+Open64
+OpenAFS
+OpenChange (a project of the Free Software Conservancy)
+OpenCog sponsored by the Singularity Institute for Artificial Intelligence
+OpenICC
+OpenImageIO
+OpenMRS
+OpenSSH
+OpenStreetMap
+openSUSE Project
+Oregon State University Open Source Lab
+OSGeo - Open Source Geospatial Foundation
+Pardus
+PHP
+Pidgin, Finch and libpurple
+PKIF project
+Plan 9 from Bell Labs
+Plone Foundation
+Portland State University
+Ptolemy Project, University of California, Berkeley
+Python Software Foundation
+R Foundation for Statistical Computing
+Review Board
+Rockbox
+RTEMS Project
+Ruby on Rails
+Sahana
+Sakai Foundation
+Samba
+Scilab/Digiteo Foundation
+SCons next-generation build system
+Scribus Team
+ScummVM
+SharpDevelop
+Simple DirectMedia Layer
+SIP Communicator
+Subversion
+Sugar Labs educational platform (a member of the SFC)
+Sunlight Foundation
+SWIG
+Systers: Women in Computing
+Tcl Community Association
+The Apache Software Foundation
+The Apertium Project
+The Aqsis Team
+The Asterisk Project
+The Codehaus
+The Electronic Frontier Foundation/The Tor Project
+The Enlightenment Project
+The FreeBSD Project
+The Freenet Project
+The Globus Alliance
+The Honeynet Project
+The Linux Foundation
+The MacPorts Project
+The NetBSD Project
+The ns-3 Network Simulator Project
+The Perl Foundation
+The Syslinux Project
+The Wine Project
+Thousand Parsec
+TikiWiki CMS/Groupware
+TurboGears
+Tux4Kids
+TYPO3 Association
+Umit Project
+VideoLAN
+Wikimedia Foundation
+WinLibre
+WordPress
+WorldForge
+wxWidgets
+X.Org
+Xelerance Corporation
+Xiph.Org Foundation
+XMMS2
+XWiki

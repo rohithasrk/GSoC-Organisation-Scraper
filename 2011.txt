@@ -1,0 +1,173 @@
+AbiWord
+Apache Software Foundation
+Apertium
+ASCEND
+Astrometry.net
+Atomic Blue
+Blender Foundation
+BlueZ
+Boost C&#43;&#43; Libraries
+BRL-CAD
+Buildbot
+Catroid Project
+Center for the Study of Complex Systems, University of Michigan
+CERN Virtual Machine (CernVM)
+CGAL - Computational Geometry Algorithms Library
+Climate Code Foundation
+CMUSphinx Speech Recognition Toolkit
+Code for America
+Computational Science and Engineering at TU Wien
+Connexions
+coreboot
+Crystal Space
+darktable
+Debian Project
+Digital Mars
+Django Software Foundation
+DokuWiki
+DragonFly BSD
+Drizzle
+Drupal
+DuraSpace
+Ecole Polytechnique Federale de Lausanne, Scala Team
+Electronic Frontier Foundation/The Tor Project
+Elgg
+Etherboot Project
+Evergreen Project
+FFmpeg / Libav
+FiberCorps
+fluxbox
+FOSSASIA
+FreeBSD
+FreedroidRPG
+Freenet Project Inc
+Freeseer video recording and streaming suite
+freifunk
+GCC, the GNU Compiler Collection
+Genome Informatics
+Gentoo Foundation
+Gephi Consortium
+Git
+GNOME Project
+GNU Image Manipulation Program
+GNU Project
+GnuCash Free Accounting Software
+Google Open Source Programs Office
+Grassroots DICOM
+GStreamer
+Haiku
+haskell.org
+Hedgewars Project
+HelenOS group at Department of Distributed and Dependable Systems, Charles University in Prague
+Helsinki Institute for Information Technology
+Hugin - Panorama photo stitcher
+illumos
+Inclusive Design Institute (IDI)
+Inkscape
+Interface Ecology Lab @ Texas A&amp;M University
+International GeoGebra Institute
+International Neuroinformatics Coordinating Facility
+Isabelle
+Jato VM
+Jikes RVM
+Jitsi (SIP Communicator), Kamailio and SEMS
+K-9 Mail
+KDE
+Kernel.org - the Linux Kernel Organization
+Komodo OpenLab Inc.
+LanguageTool
+Learning Unlimited
+LibreOffice
+LimeSurvey
+Liquid Galaxy Project
+Mapnik
+Marine Biological Laboratory - Center for Library and Informatics
+Melange
+MetaBrainz Foundation Inc.
+MINIX 3 Research group at the Vrije Universiteit in Amsterdam, The Netherlands
+Mixxx
+MoinMoin
+Mono Project
+Moodle
+Mozilla
+National Evolutionary Synthesis Center (NESCent)
+National Resource for Network Biology (GenMAPP, Cytoscape and WikiPathways)
+Natural User Interface Group
+Nmap Security Scanner
+NTP
+OGRE - Open Source 3D Graphics Engine
+Open Bioinformatics Foundation
+Open Source Computer Vision Library (OpenCV)
+OpenICC Color Management
+OpenImageIO
+OpenIntents
+OpenMRS
+OpenNMS
+OpenStreetMap
+openSUSE Project
+Openwall Project
+Orange – Data Mining Fruitful &amp; Fun
+Oregon State University Open Source Lab (OSUOSL)
+OSGeo - Open Source Geospatial Foundation
+Parrot Foundation
+phpMyAdmin
+Plan 9 from Bell Labs
+Plone Foundation
+Point Cloud Library (PCL)
+Portland State University
+PostgreSQL Global Development Group
+Processing
+Python Software Foundation
+QEMU.org
+R Project for Statistical Computing
+ReactOS
+Review Board
+Rockbox
+RTEMS Project
+Sahana Software Foundation
+Sakai Project
+Samba
+Scilab
+Scribus Team
+ScummVM
+Selenium
+Sencha Labs
+SETI Institute
+Shogun Machine Learning Toolbox (Technical University Berlin / Max Planck Campus Tübingen)
+Simple DirectMedia Layer
+StatusNet
+Sunlight Labs
+SymPy
+Tcl/Tk Community
+The Battle for Wesnoth
+The Codehaus
+The Eclipse Foundation
+The Fedora Project
+The Gambit Project
+The Globus Alliance
+The Honeynet Project
+The Java Pathfinder Team
+The Linux Foundation
+The LLVM Compiler Infrastructure
+The MacPorts Project
+The NetBSD Foundation
+The Perl Foundation
+Theoretical Biophysics @ Humboldt University
+Tianocore
+TYPO3 Association
+Umit Project
+Universal Subtitles
+Unknown Horizons
+VideoLAN
+Visualization Toolkit (VTK)
+Wikimedia Foundation
+Wine
+WordPress
+WorldForge
+wxWidgets
+X.Org Foundation
+Xapian Search Engine Library
+Xen.org
+XMMS2 - X-platform Music Multiplexing System 2
+XMPP Standards Foundation
+XWiki
