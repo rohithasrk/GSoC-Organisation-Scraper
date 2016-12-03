@@ -63,6 +63,17 @@ def no_of_times_before_2016(org_name):
         break
   return count
 
+def orgs_of_an_year(year):
+ year_url = prev_def_url + year
+ response = requests.get(year_url)
+ html = response.content
+ soup = BeautifulSoup(html)
+ orgs = soup.findAll('li', attrs={'class':'mdl-list__item mdl-list__item--one-line'})
+ for org in orgs:
+   org_name = org.find('a').text
+   print org_name
+
+
 if __name__=="__main__":
   scrape()
   
