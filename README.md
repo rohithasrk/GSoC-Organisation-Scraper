@@ -1,6 +1,7 @@
 # GSoC '16 organisation scraper
 
-Makes life easier by scraping instead of searching for each and every organisation by name. Used [requests](http://docs.python-requests.org/en/master/) library of python and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+Makes life easier by scraping instead of searching for each and every organisation by name. Also shows number of times that an organisation has appeared in GSoC.
+Used [requests](http://docs.python-requests.org/en/master/) library of python and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 ### Requirements :
 + BeautifulSoup
