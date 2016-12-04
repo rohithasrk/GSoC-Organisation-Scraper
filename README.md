@@ -8,6 +8,7 @@ Used [requests](http://docs.python-requests.org/en/master/) library of python an
 + Requests
 
 ### Instructions :
++ `git clone https://github.com/rohithasrk/gsoc-organisation-scraper.git`
 + `[sudo] pip install -r requirements.txt`
 + `python scrape.py`
 +  Enter the technology of preference when prompted
@@ -26,4 +27,8 @@ When browsed for python, some of the results are as shown below.
 + Remove multiple results.
 + Change the default colors
 
-PRs are welcome.
+### Contributing :
++ Fork the repo.
++ Commit changes and make a PR.
++ PRs are welcome.
+
