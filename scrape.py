@@ -3,18 +3,20 @@ import requests
 from BeautifulSoup import BeautifulSoup
 import signal
 import sys
+import os
 
 url = "https://summerofcode.withgoogle.com/archive/2016/organizations/"
 default = "https://summerofcode.withgoogle.com"
 prev_def_url = "https://www.google-melange.com/archive/gsoc/"
+dir_path = os.path.dirname(os.path.realpath(__file__))+'/'
 
-o2009 = open('2009.txt','r').read().split('\n')
-o2010 = open('2010.txt','r').read().split('\n')
-o2011 = open('2011.txt','r').read().split('\n')
-o2012 = open('2012.txt','r').read().split('\n')
-o2013 = open('2013.txt','r').read().split('\n')
-o2014 = open('2014.txt','r').read().split('\n')
-o2015 = open('2015.txt','r').read().split('\n')
+o2009 = open(dir_path + '2009.txt','r').read().split('\n')
+o2010 = open(dir_path + '2010.txt','r').read().split('\n')
+o2011 = open(dir_path + '2011.txt','r').read().split('\n')
+o2012 = open(dir_path + '2012.txt','r').read().split('\n')
+o2013 = open(dir_path + '2013.txt','r').read().split('\n')
+o2014 = open(dir_path + '2014.txt','r').read().split('\n')
+o2015 = open(dir_path + '2015.txt','r').read().split('\n')
 
 def signal_handler(signal, frame):
   confirmation = raw_input("Really want to exit (y/n)? ")
