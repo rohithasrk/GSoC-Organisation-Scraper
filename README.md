@@ -14,6 +14,8 @@ Used [requests](http://docs.python-requests.org/en/master/) library of python an
 
 ### Screenshots :
 
+When browsed for python, some of the results are as shown below.
+
 ![Python orgs 1](pyorgs.png)
 
 ![Python orgs 2](pyorgs2.png)
