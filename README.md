@@ -10,6 +10,13 @@ Used [requests](http://docs.python-requests.org/en/master/) library of python an
 ### Instructions :
 + `[sudo] pip install -r requirements.txt`
 + `python scrape.py`
++  Enter the technology of preference when prompted
+
+### Screenshots :
+
+![Python orgs 1](pyorgs.png)
+
+![Python orgs 2](pyorgs2.png)
 
 ### TODOs :
 + Make the code run faster.
