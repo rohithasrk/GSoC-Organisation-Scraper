@@ -8,7 +8,7 @@ import os
 url = "https://summerofcode.withgoogle.com/archive/2016/organizations/"
 default = "https://summerofcode.withgoogle.com"
 prev_def_url = "https://www.google-melange.com/archive/gsoc/"
-dir_path = os.path.dirname(os.path.realpath(__file__)) + '/'
+dir_path = os.path.dirname(os.path.realpath(__file__)) + '/resources/'
 
 o2009 = open(dir_path + '2009.txt', 'r').read().split('\n')
 o2010 = open(dir_path + '2010.txt', 'r').read().split('\n')

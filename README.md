@@ -17,9 +17,9 @@ Used [requests](http://docs.python-requests.org/en/master/) library of python an
 
 When browsed for python, some of the results are as shown below.
 
-![Python orgs 1](pyorgs.png)
+![Python orgs 1](img/pyorgs.png)
 
-![Python orgs 2](pyorgs2.png)
+![Python orgs 2](img/pyorgs2.png)
 
 ### TODOs :
 + Make the code run faster.
