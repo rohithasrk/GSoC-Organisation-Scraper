@@ -8,7 +8,7 @@ import os
 url = "https://summerofcode.withgoogle.com/archive/2016/organizations/"
 default = "https://summerofcode.withgoogle.com"
 prev_def_url = "https://www.google-melange.com/archive/gsoc/"
-dir_path = os.path.join(os.path.dirname(os.path.realpath(__file__)),'resources')
+dir_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'resources')
 
 o2009 = open(os.path.join(dir_path, '2009.txt'), 'r').read().split('\n')
 o2010 = open(os.path.join(dir_path, '2010.txt'), 'r').read().split('\n')
@@ -51,12 +51,16 @@ def scrape():
         response = requests.get(org_link)
         html = response.content
         soup = BeautifulSoup(html)
-        tags = soup.findAll('li', attrs={'class': 'organization__tag organization__tag--technology'})
+        tags = soup.findAll('li', attrs={
+                'class': 'organization__tag organization__tag--technology'
+                }
+            )
         for tag in tags:
             if user_pref in tag.text:
+                number = no_of_times(org_name)
                 print "Name: " + org_name
                 print "Link: " + org_link
-                print "No. of times in GSoC: " + str(no_of_times(org_name) + 1) + '\n'
+                print "No. of times in GSoC: " + str(number + 1) + '\n'
                 count += 1
 
     if count == 0:
@@ -70,7 +74,10 @@ def no_of_times_before_2016(org_name):
         response = requests.get(year_url)
         html = response.content
         soup = BeautifulSoup(html)
-        orgs = soup.findAll('li', attrs={'class': 'mdl-list__item mdl-list__item--one-line'})
+        orgs = soup.findAll('li', attrs={
+                'class': 'mdl-list__item mdl-list__item--one-line'
+                }
+            )
         for org in orgs:
             name = org.find('a').text
             if org_name == name:
@@ -84,7 +91,10 @@ def orgs_of_an_year(year):
     response = requests.get(year_url)
     html = response.content
     soup = BeautifulSoup(html)
-    orgs = soup.findAll('li', attrs={'class': 'mdl-list__item mdl-list__item--one-line'})
+    orgs = soup.findAll('li', attrs={
+            'class': 'mdl-list__item mdl-list__item--one-line'
+            }
+        )
     for org in orgs:
         org_name = org.find('a').text
         print org_name
