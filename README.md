@@ -24,7 +24,6 @@ When browsed for python, some of the results are as shown below.
 ### TODOs :
 + Make the code run faster.
 + Making it look better.
-+ Remove multiple results.
 + Change the default colors.
 
 ### Contributing :

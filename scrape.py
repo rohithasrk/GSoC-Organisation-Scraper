@@ -57,7 +57,7 @@ def scrape():
         )
 
         for tag in tags:
-            if user_pref in tag.text:
+            if user_pref == tag.text.lower():
                 number = no_of_times(org_name)
                 print "Name: " + org_name
                 print "Link: " + org_link
