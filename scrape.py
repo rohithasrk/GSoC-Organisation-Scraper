@@ -51,10 +51,11 @@ def scrape():
         response = requests.get(org_link)
         html = response.content
         soup = BeautifulSoup(html)
-        tags = soup.findAll('li', attrs={
-                'class': 'organization__tag organization__tag--technology'
-                }
-            )
+        tags = soup.findAll(
+            'li',
+            attrs={'class': 'organization__tag organization__tag--technology'}
+        )
+
         for tag in tags:
             if user_pref in tag.text:
                 number = no_of_times(org_name)
