@@ -101,6 +101,7 @@ def orgs_of_an_year(year):
 
 
 def no_of_times(org_name):
+    org_name = str(org_name)
     count = 0
     if org_name in o2009:
         count += 1
