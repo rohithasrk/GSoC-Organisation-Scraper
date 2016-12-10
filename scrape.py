@@ -102,23 +102,21 @@ def orgs_of_an_year(year):
 
 def no_of_times(org_name):
     count = 0
-    try:
-        if org_name in o2009:
-            count += 1
-        if org_name in o2010:
-            count += 1
-        if org_name in o2011:
-            count += 1
-        if org_name in o2012:
-            count += 1
-        if org_name in o2013:
-            count += 1
-        if org_name in o2014:
-            count += 1
-        if org_name in o2015:
-            count += 1
-    except:
-        pass
+    if org_name in o2009:
+        count += 1
+    if org_name in o2010:
+        count += 1
+    if org_name in o2011:
+        count += 1
+    if org_name in o2012:
+        count += 1
+    if org_name in o2013:
+        count += 1
+    if org_name in o2014:
+        count += 1
+    if org_name in o2015:
+        count += 1
+
 
     return count
 
