@@ -4,6 +4,8 @@ from BeautifulSoup import BeautifulSoup
 import signal
 import sys
 import os
+from resources import pyterm_colors
+import warnings
 
 url = "https://summerofcode.withgoogle.com/archive/2016/organizations/"
 default = "https://summerofcode.withgoogle.com"
@@ -18,14 +20,20 @@ o2013 = open(os.path.join(dir_path, '2013.txt'), 'r').read().split('\n')
 o2014 = open(os.path.join(dir_path, '2014.txt'), 'r').read().split('\n')
 o2015 = open(os.path.join(dir_path, '2015.txt'), 'r').read().split('\n')
 
-#For proxy support
+# For proxy support
 proxies = {
 	'http': os.environ['http_proxy'],
 	'https': os.environ['https_proxy'],
 }
 
+# For colored output
+color = pyterm_colors.color()
+
+# To avoid warning messages
+warnings.filterwarnings("ignore")
+
 def signal_handler(signal, frame):
-    confirmation = raw_input("Really want to exit (y/n)? ")
+    confirmation = raw_input(color.red + "Really want to exit (y/n)? " + color.default)
     confirmation.replace(" ", "")
     confirmation = confirmation.lower()
     if confirmation == "y" or confirmation == "yes":
@@ -38,10 +46,11 @@ signal.signal(signal.SIGINT, signal_handler)
 
 
 def scrape():
-    user_pref = raw_input("Enter a technology of preference: ")
+    user_pref = raw_input(color.yellow + "Enter a technology of preference: " + color.default)
     user_pref = user_pref.lower()
     user_pref.replace(" ", "")
     count = 0
+    print
 
     response = requests.get(url, proxies=proxies)
     html = response.content
@@ -63,13 +72,13 @@ def scrape():
         for tag in tags:
             if user_pref in tag.text:
                 number = no_of_times(org_name)
-                print "Name: " + org_name
-                print "Link: " + org_link
-                print "No. of times in GSoC: " + str(number + 1) + '\n'
+                print color.default + "Name: " + color.cyan + org_name
+                print color.default + "Link: " + color.blue + org_link
+                print color.default + "No. of times in GSoC: " + color.yellow + str(number + 1) + '\n' + color.default
                 count += 1
 
     if count == 0:
-        print "Enter a valid technology name."
+        print color.red + "Enter a valid technology name." + color.default
 
 
 def no_of_times_before_2016(org_name):
