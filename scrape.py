@@ -21,10 +21,17 @@ o2014 = open(os.path.join(dir_path, '2014.txt'), 'r').read().split('\n')
 o2015 = open(os.path.join(dir_path, '2015.txt'), 'r').read().split('\n')
 
 # For proxy support
-proxies = {
-	'http': os.environ['http_proxy'],
-	'https': os.environ['https_proxy'],
-}
+has_proxy = False
+proxies = {}
+try:
+	proxies = {
+		'http': os.environ['http_proxy'],
+		'https': os.environ['https_proxy'],
+	}
+	has_proxy = True
+	print "Proxy detected\n"
+except KeyError:
+	pass
 
 # For colored output
 color = pyterm_colors.color()
@@ -52,7 +59,7 @@ def scrape():
     count = 0
     print
 
-    response = requests.get(url, proxies=proxies)
+    response = requests.get(url, proxies=proxies) if has_proxy else requests.get(url)
     html = response.content
 
     soup = BeautifulSoup(html)
@@ -62,7 +69,7 @@ def scrape():
         link = org.find('a', attrs={'class': 'organization-card__link'})
         org_name = org['aria-label']
         org_link = default + link['href']
-        response = requests.get(org_link, proxies=proxies)
+        response = requests.get(org_link, proxies=proxies) if has_proxy else requests.get(org_link)
         html = response.content
         soup = BeautifulSoup(html)
         tags = soup.findAll('li', attrs={
@@ -85,7 +92,7 @@ def no_of_times_before_2016(org_name):
     count = 0
     for i in range(2009, 2016):
         year_url = prev_def_url + str(i)
-        response = requests.get(year_url, proxies=proxies)
+        response = requests.get(year_url, proxies=proxies) if has_proxy else requests.get(year_url)
         html = response.content
         soup = BeautifulSoup(html)
         orgs = soup.findAll('li', attrs={
@@ -102,7 +109,7 @@ def no_of_times_before_2016(org_name):
 
 def orgs_of_an_year(year):
     year_url = prev_def_url + year
-    response = requests.get(year_url, proxies=proxies)
+    response = requests.get(year_url, proxies=proxies) if has_proxy else requests.get(year_url)
     html = response.content
     soup = BeautifulSoup(html)
     orgs = soup.findAll('li', attrs={
