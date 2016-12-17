@@ -24,14 +24,14 @@ o2015 = open(os.path.join(dir_path, '2015.txt'), 'r').read().split('\n')
 has_proxy = False
 proxies = {}
 try:
-	proxies = {
-		'http': os.environ['http_proxy'],
-		'https': os.environ['https_proxy'],
-	}
-	has_proxy = True
-	print "Proxy detected\n"
+    proxies = {
+        'http': os.environ['http_proxy'],
+        'https': os.environ['https_proxy'],
+    }
+    has_proxy = True
+    print "Proxy detected\n"
 except KeyError:
-	pass
+    pass
 
 # For colored output
 color = pyterm_colors.color()
