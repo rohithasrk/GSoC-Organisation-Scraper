@@ -72,12 +72,13 @@ def scrape():
         response = requests.get(org_link, proxies=proxies) if has_proxy else requests.get(org_link)
         html = response.content
         soup = BeautifulSoup(html)
-        tags = soup.findAll('li', attrs={
-                'class': 'organization__tag organization__tag--technology'
-                }
-            )
+        tags = soup.findAll(
+            'li',
+            attrs={'class': 'organization__tag organization__tag--technology'}
+        )
+
         for tag in tags:
-            if user_pref in tag.text:
+            if user_pref == tag.text.lower():
                 number = no_of_times(org_name)
                 print color.default + "Name: " + color.cyan + org_name
                 print color.default + "Link: " + color.blue + org_link
