@@ -23,9 +23,7 @@ When browsed for python, some of the results are as shown below.
 
 ### TODOs :
 + Make the code run faster.
-+ Making it look better.
 + Remove multiple results.
-+ Change the default colors.
 
 ### Contributing :
 + Fork the repo.
@@ -33,3 +31,4 @@ When browsed for python, some of the results are as shown below.
 + Commit changes and make a PR.
 + PRs are welcome.
 
+This program uses PyTerm-Colors : https://github.com/vinamarora8/PyTerm-Colors.git
