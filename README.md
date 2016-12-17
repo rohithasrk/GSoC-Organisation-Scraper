@@ -8,10 +8,18 @@ Used [Requests](http://docs.python-requests.org/en/master/) library of python an
 + Requests
 
 ### Instructions :
-+ `git clone https://github.com/rohithasrk/gsoc-organisation-scraper.git`
-+ `[sudo] pip install -r requirements.txt`
-+ `python scrape.py`
-+  Enter the technology of preference when prompted.
+
+```bash
+# Clone this repository
+git clone https://github.com/rohithasrk/GSoC-Organisation-Scraper.git
+# Go into the repository
+cd GSoC-Organisation-Scraper
+# Install dependencies
+[sudo] pip install -r requirements.txt
+# Run the app
+python scrape.py
+#Enter the technology of preference when prompted.
+```
 
 ### Screenshots :
 
@@ -23,9 +31,7 @@ When browsed for python, some of the results are as shown below.
 
 ### TODOs :
 + Make the code run faster.
-+ Making it look better.
 + Remove multiple results.
-+ Change the default colors.
 
 ### Contributing :
 + Fork the repo.
