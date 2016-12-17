@@ -12,12 +12,16 @@ Used [Requests](http://docs.python-requests.org/en/master/) library of python an
 ```bash
 # Clone this repository
 git clone https://github.com/rohithasrk/GSoC-Organisation-Scraper.git
+
 # Go into the repository
 cd GSoC-Organisation-Scraper
+
 # Install dependencies
 [sudo] pip install -r requirements.txt
+
 # Run the app
 python scrape.py
+
 #Enter the technology of preference when prompted.
 ```
 
