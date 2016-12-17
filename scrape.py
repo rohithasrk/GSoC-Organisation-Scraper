@@ -4,7 +4,7 @@ from BeautifulSoup import BeautifulSoup
 import signal
 import sys
 import os
-from resources import pyterm_colors
+from resources.pyterm_colors import pyterm_colors
 import warnings
 
 url = "https://summerofcode.withgoogle.com/archive/2016/organizations/"
