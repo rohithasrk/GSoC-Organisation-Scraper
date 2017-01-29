@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import requests
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 import signal
 import sys
 import os
