@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+from __future__ import print_function
+from builtins import input
 import requests
 from bs4 import BeautifulSoup
 import signal
@@ -6,6 +8,8 @@ import sys
 import os
 from resources.pyterm_colors import pyterm_colors
 import warnings
+
+
 
 url = "https://summerofcode.withgoogle.com/archive/2016/organizations/"
 default = "https://summerofcode.withgoogle.com"
@@ -29,7 +33,7 @@ try:
         'https': os.environ['https_proxy'],
     }
     has_proxy = True
-    print "Proxy detected\n"
+    print ("Proxy detected\n")
 except KeyError:
     pass
 
@@ -40,7 +44,7 @@ color = pyterm_colors.color()
 warnings.filterwarnings("ignore")
 
 def signal_handler(signal, frame):
-    confirmation = raw_input(color.red + "Really want to exit (y/n)? " + color.default)
+    confirmation = input(color.red + "Really want to exit (y/n)? " + color.default)
     confirmation.replace(" ", "")
     confirmation = confirmation.lower()
     if confirmation == "y" or confirmation == "yes":
@@ -53,11 +57,11 @@ signal.signal(signal.SIGINT, signal_handler)
 
 
 def scrape():
-    user_pref = raw_input(color.yellow + "Enter a technology of preference: " + color.default)
+    user_pref = input(color.yellow + "Enter a technology of preference: " + color.default)
     user_pref = user_pref.lower()
     user_pref.replace(" ", "")
     count = 0
-    print
+    print()
 
     response = requests.get(url, proxies=proxies) if has_proxy else requests.get(url)
     html = response.content
@@ -79,13 +83,13 @@ def scrape():
         for tag in tags:
             if user_pref in tag.text:
                 number = no_of_times(org_name)
-                print color.default + "Name: " + color.cyan + org_name
-                print color.default + "Link: " + color.blue + org_link
-                print color.default + "No. of times in GSoC: " + color.yellow + str(number + 1) + '\n' + color.default
+                print (color.default + "Name: " + color.cyan + org_name)
+                print (color.default + "Link: " + color.blue + org_link)
+                print (color.default + "No. of times in GSoC: " + color.yellow + str(number + 1) + '\n' + color.default)
                 count += 1
 
     if count == 0:
-        print color.red + "Enter a valid technology name." + color.default
+        print (color.red + "Enter a valid technology name." + color.default)
 
 
 def no_of_times_before_2016(org_name):
@@ -118,7 +122,7 @@ def orgs_of_an_year(year):
         )
     for org in orgs:
         org_name = org.find('a').text
-        print org_name
+        print (org_name)
 
 
 def no_of_times(org_name):
