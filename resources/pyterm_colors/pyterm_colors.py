@@ -1,8 +1,8 @@
 class color:
 
-# Part one: To be used as :
-# from pyterm_colors import * 
-# print color.red + "your-text"
+    # Part one: To be used as :
+    # from pyterm_colors import *
+    # print color.red + "your-text"
 
     default = '\033[39m'
     black = '\033[30m'
@@ -26,9 +26,9 @@ class color:
         elif colo == "black":
             print self.black
         elif colo == "red":
-    	    print self.red
+            print self.red
         elif colo == "green":
-             print self.green
+            print self.green
         elif colo == "yellow":
             print self.yellow
         elif colo == "blue":
@@ -40,4 +40,4 @@ class color:
         elif colo == "white":
             print self.white
         else:
-	    print self.red
+            print self.red
