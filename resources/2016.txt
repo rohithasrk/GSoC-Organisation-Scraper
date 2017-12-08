@@ -1,0 +1,178 @@
+52°North Initiative for Geospatial Open Source Software GmbH
+aimacode
+AOSSIE - The Australian National University's Open-Source Software Innovation and Education
+Apache Software Foundation
+ArchC
+ASCEND
+BeagleBoard.org
+Beam Community
+Berkman Center for Internet and Society
+BioJS
+Biomedical Informatics, Emory University
+Blender Foundation
+Boston University / XIA
+BRL-CAD
+BuildmLearn
+Canadian Centre for Computational Genomics (C3G) - Montreal node
+Catrobat
+cBioPortal for Cancer Genomics
+CCExtractor Development
+Celluloid
+Ceph
+CERN SFT
+Chapel
+CiviCRM
+Classical Language Toolkit
+CloudCV
+Computational Biology @ University of Nebraska-Lincoln
+Computational Science and Engineering at TU Wien
+Copyleft Games
+coreboot
+CVXPY
+D Foundation
+dbpediaspotlight
+Debian Project
+Discourse
+Distributed and Unified Numerics Environment (DUNE)
+Django Software Foundation
+Drupal
+Eclipse Foundation
+Fedora Project
+FFmpeg
+FOSDEM VZW
+FOSSASIA
+Free and Open Source Silicon Foundation
+FreeBSD
+Freifunk
+Gambit - Software Tools for Game Theory
+Ganeti
+Genes, Genomes and Variation
+Gentoo Foundation
+Git
+GitHub
+Global Alliance for Genomics & Health
+GNOME
+gnss-sdr
+GNU Mailman
+GNU Octave
+GNU Project
+GNU Radio
+GPAC
+Green Navigation
+gRPC
+Health Information Systems Programme
+Homebrew
+Inclusive Design Institute
+Indic Project
+Inkscape
+International Neuroinformatics Coordinating Facility
+Java Pathfinder Team
+JBoss Community
+Jenkins Project
+Joomla!
+jQuery Foundation
+JSK Robotics Laboratory
+KDE
+KolibriOS
+LabLua
+LibreOffice
+Libvirt
+Liquid Galaxy Project
+lowRISC
+MariaDB
+Matrix.org
+MBDyn, Department of Aerospace Science and Technology at Politecnico di Milano
+McGill Space Institute
+MetaBrainz Foundation
+Mifos Initiative
+MIT Media Lab
+Mixxx DJ Software
+mlpack: a scalable C++ machine learning library
+Mobile Robot Programming Toolkit (MRPT)
+ModSecurity
+Moodle
+MovingBlocks
+Mozilla
+MuseScore
+National Resource for Network Biology (NRNB)
+Netfilter project
+Nmap Security Scanner
+NumFOCUS
+Open Bioinformatics Foundation
+Open Chemistry
+Open Detection
+Open Ephys
+Open Genome Informatics
+Open Source Robotics Foundation
+OpenAstronomy
+OpenCV
+OpenKeychain (OpenPGP for Android)
+OpenMRS
+OpenStreetMap
+openSUSE
+Oppia Foundation
+Orange – Data Mining Fruitful & Fun
+OSGeo - The Open Source Geospatial Foundation
+OSU Open Source Lab
+OWASP Foundation
+ownCloud
+P2PSP.org
+Peragro
+Performance Co-Pilot
+Physical Web Project
+PLASMA-UMass
+Plone Foundation
+Portland State University
+PRISM Model Checker
+Public Lab
+Python Software Foundation
+QEMU
+R project for statistical computing
+radare
+ReactOS
+Red Hen Lab
+Robocomp
+RTEMS Project
+Ruby
+Ruby Science Foundation
+Sage Mathematical Software System
+Scala
+Scilab Enterprises
+ScummVM
+Shogun Machine Learning Toolbox
+Sigmah
+Soletta Project
+Stony Brook University Biomedical Informatics
+strace
+Sugar Labs
+Sustainable Computing Research Group ( SCoRe )
+SymPy
+Systers, an Anita Borg Institute Community
+TARDIS-SN
+TEAMMATES @ National University of Singapore
+The Apertium Project
+The Center for Connected Learning and Computer-Based Modeling
+The Honeynet Project
+The Julia Language
+The Linux Foundation
+The LLVM Compiler Infrastructure
+The Monarch Initiative
+The NetBSD Foundation
+The STE||AR Group
+The syslog-ng project
+The Tor Project
+The Wine Project
+Timelab Technologies Ltd.
+TimVideos.us
+Unitex/GramLab
+Urban Energy Systems Laboratory, Empa
+Vert.x
+VideoLAN / VLMC Project
+vitrivr
+Wayland
+Wikimedia Foundation
+WSO2
+X.Org Foundation
+Xapian Search Engine Library
+XWiki
+Zulip Open Source Project
