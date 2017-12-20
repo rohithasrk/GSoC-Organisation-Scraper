@@ -1,9 +1,9 @@
 from __future__ import print_function
 class color:
 
-# Part one: To be used as :
-# from pyterm_colors import * 
-# print color.red + "your-text"
+    # Part one: To be used as :
+    # from pyterm_colors import *
+    # print color.red + "your-text"
 
     default = '\033[39m'
     black = '\033[30m'
