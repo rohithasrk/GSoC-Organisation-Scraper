@@ -1,11 +1,13 @@
 #!/usr/bin/env python
-import requests
-from bs4 import BeautifulSoup
+import os
 import signal
 import sys
-import os
-from resources.pyterm_colors import pyterm_colors
 import warnings
+
+import requests
+
+from bs4 import BeautifulSoup
+from resources.pyterm_colors import pyterm_colors
 
 url = "https://summerofcode.withgoogle.com/archive/2017/organizations/"
 default = "https://summerofcode.withgoogle.com"
@@ -95,7 +97,8 @@ def scrape():
                 number = no_of_times(org_name)
                 print color.default + "Name: " + color.cyan + org_name
                 print color.default + "Link: " + color.blue + org_link
-                print color.default + "No. of times in GSoC: " + color.yellow + str(number + 1) + '\n' + color.default
+                print color.default + "No. of times in GSoC: " + \
+                    color.yellow + str(number + 1) + '\n' + color.default
                 count += 1
 
     if count == 0:
@@ -138,20 +141,19 @@ def orgs_of_an_year(year):
         print org_name
 
 
-
 def scrape16():
     response = requests.get(
         url16, proxies=proxies) if has_proxy else requests.get(url16)
     html = response.content
     soup = BeautifulSoup(html)
     orgs = soup.findAll('li', attrs={'class': 'organization-card__container'})
-    file = open('2016.txt','w') 
+    file = open('2016.txt', 'w')
     for org in orgs:
         orgss = org.find('h4').text
         print orgss
         orgsss = orgss.encode('utf-8')
-        file.write(orgsss+'\n') 
-    file.close()        
+        file.write(orgsss+'\n')
+    file.close()
 
 
 def no_of_times(org_name):
@@ -173,8 +175,8 @@ def no_of_times(org_name):
             count += 1
         if org_name in o2016:
             count += 1
-    except:
-        pass
+    except Exception as e:
+        print(str(e))
 
     return count
 
