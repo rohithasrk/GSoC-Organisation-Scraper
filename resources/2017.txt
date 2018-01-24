@@ -1,0 +1,201 @@
+52°North Initiative for Geospatial Open Source Software GmbH
+AboutCode
+AerospaceResearch.net
+aimacode
+Amahi
+AOSSIE - Australian Open Source Software Innovation and Education
+Apache Software Foundation
+Apertium
+Apertus Association
+appleseedhq
+ArduPilot
+Babel
+Bazel
+BeagleBoard.org Foundation
+Beam Community
+BeeWare Project
+Berkman Klein Center for Internet and Society at Harvard University
+Blender Foundation
+Boost C++ Libraries
+Boston University / XIA
+BRL-CAD
+Cadasta
+Catrobat
+cBioPortal for Cancer Genomics
+CCExtractor Development
+Ceph
+CERN-HSF
+Chapel
+Checker Framework
+Checkstyle
+Classical Language Toolkit
+CLiPS, University of Antwerp
+Clojure
+Cloud Native Computing Foundation (CNCF)
+CloudCV
+CMU Sphinx
+coala
+Computational Biology @ University of Nebraska-Lincoln
+Conversations.im
+Copyleft Games
+DBpedia
+Discourse
+Django Software Foundation
+Drupal
+Eclipse Vert.x
+Elm Software Foundation
+Environmental Data And Governance Initiative
+Fedora Project
+FFmpeg
+FOSDEM
+FOSSASIA
+Free and Open Source Silicon Foundation
+FreeBSD
+Freifunk
+Frescobaldi
+Genes, Genomes and Variation
+GENIVI Development Platform
+Gentoo Foundation
+Git
+Global Alliance for Genomics and Health
+GNOME
+GNSS-SDR
+GNU Octave
+GNU Radio
+Green Navigation
+Haiku
+Homebrew
+illumos.org
+INCF
+Inkscape
+Institute of Artificial Intelligence
+Intel Media and Audio for Linux
+Internet Archive
+JBoss Community
+JdeRobot - Universidad Rey Juan Carlos
+Jitsi
+Joomla
+JSK Robotics Laboratory
+K-9 Mail
+KDE
+LabLua
+LibreHealth
+LibreOffice
+libvirt
+Liquid Galaxy Project
+LLVM Compiler Infrastructure
+lowRISC
+LuaRocks
+MariaDB
+Matrix.org
+MBDyn
+MetaBrainz Foundation Inc.
+Metasploit
+Microkernel devroom
+Mifos Initiative
+MIT App Inventor
+Mixxx DJ Software
+mlpack
+Mobile Robot Programming Toolkit (MRPT)
+Mono Project
+Moodle
+MovingBlocks
+Mozilla
+MuseScore
+National Resource for Network Biology (NRNB)
+Netfilter Project
+Nmap Security Scanner
+NumFOCUS
+Open Bioinformatics Foundation
+Open Chemistry
+Open Data Kit
+Open Detection
+Open Genome Informatics
+Open States
+Open Bioinformatics Foundation
+OpenAstronomy
+openCV
+OpenMRS
+OpenStreetMap
+openSUSE
+openWISP
+Oppia Foundation
+OSGeo
+oVirt
+ownCloud
+P2PSP.org
+PEcAn Project
+Performance Co-Pilot
+Pharo Consortium
+phpBB Forum Software
+phpMyAdmin
+Physical Web Project
+Plone Foundation
+PMD
+Polly Labs
+Portland State University
+PostgreSQL
+Public Lab
+Python Software Foundation
+QEMU
+Qubes OS
+R project for statistical computing
+radare2
+ReactOS
+Red Hen Lab
+RoboComp
+Rocket.Chat
+Rspamd
+RTEMS Project
+Ruby on Rails
+Ruby Science Foundation
+Sage Mathematical Software System
+Samba
+Scala
+Scilab
+ScummVM
+Shogun Machine Learning Toolbox
+Sigmah
+Software Product Data Exchange (SPDX)
+STE||AR Group
+Stony Brook University, Biomedical Informatics
+strace
+Sugar Labs
+Sustainable Computing Research Group ( SCoRe )
+SymPy
+Systers, an Anita Borg Institute community
+TEAMMATES @ National University of Singapore
+The Center for Connected Learning and Computer-Based Modeling
+The CGAL Project
+The Eclipse Foundation
+The FreeType Project
+The GNU Project
+The Honeynet Project
+The Java Pathfinder Team
+The Julia Language
+The Libreswan Project
+The Linux Foundation
+The MacPorts Project
+The NetBSD Foundation
+The ns-3 Network Simulator Project
+The Processing Foundation
+The Wine Project
+Tiled
+TimVideos
+Tor
+UCSC Xena
+Urban Energy Systems Laboratory, Empa
+VideoLAN
+ViSP
+Wikimedia Foundation
+WorldBrain - Verifying the Internet with Science
+WSO2
+wxWidgets
+X.Org Foundation
+Xapian Search Engine Library
+XBMC Foundation
+Xen Project
+XMPP Standards Foundation
+XWiki
+Zenodo
+Zulip
