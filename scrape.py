@@ -13,6 +13,7 @@ url = "https://summerofcode.withgoogle.com/archive/2017/organizations/"
 default = "https://summerofcode.withgoogle.com"
 prev_def_url = "https://www.google-melange.com/archive/gsoc/"
 url16 = "https://summerofcode.withgoogle.com/archive/2016/organizations/"
+url17 = "https://summerofcode.withgoogle.com/archive/2017/organizations/"
 dir_path = os.path.join(
     os.path.dirname(
         os.path.realpath(__file__)),
@@ -26,6 +27,7 @@ o2013 = open(os.path.join(dir_path, '2013.txt'), 'r').read().split('\n')
 o2014 = open(os.path.join(dir_path, '2014.txt'), 'r').read().split('\n')
 o2015 = open(os.path.join(dir_path, '2015.txt'), 'r').read().split('\n')
 o2016 = open(os.path.join(dir_path, '2016.txt'), 'r').read().split('\n')
+o2017 = open(os.path.join(dir_path, '2017.txt'), 'r').read().split('\n')
 
 # For proxy support
 has_proxy = False
@@ -155,6 +157,20 @@ def scrape16():
         file.write(orgsss+'\n')
     file.close()
 
+def scrape17():
+    response = requests.get(
+        url17, proxies=proxies) if has_proxy else requests.get(url17)
+    html = response.content
+    soup = BeautifulSoup(html)
+    orgs = soup.findAll('li', attrs={'class': 'organization-card__container'})
+    file = open('2017.txt', 'w')
+    for org in orgs:
+        orgss = org.find('h4').text
+        print orgss
+        orgsss = orgss.encode('utf-8')
+        file.write(orgsss+'\n')
+    file.close()
+
 
 def no_of_times(org_name):
     count = 0
@@ -174,6 +190,8 @@ def no_of_times(org_name):
         if org_name in o2015:
             count += 1
         if org_name in o2016:
+            count += 1
+        if org_name in o2017:
             count += 1
     except Exception as e:
         print(str(e))
