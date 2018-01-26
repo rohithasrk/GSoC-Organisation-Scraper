@@ -64,13 +64,13 @@ signal.signal(signal.SIGINT, signal_handler)
 
 
 def scrape():
-    if len(sys.argv)==1:
+    if len(sys.argv) == 1:
         user_pref = raw_input(
             color.yellow +
             "Enter a technology of preference: " +
             color.default)
     else:
-        user_pref=sys.argv[1]
+        user_pref = sys.argv[1]
     user_pref = user_pref.lower()
     user_pref.replace(" ", "")
     count = 0
