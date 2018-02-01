@@ -19,10 +19,16 @@ cd GSoC-Organisation-Scraper
 # Install dependencies
 [sudo] pip install -r requirements.txt
 
-# Run the app
+# Run the app without giving technology as a command line argument 
 python scrape.py
 
 #Enter the technology of preference when prompted.
+
+# Run the app by giving technology as a command line argument 
+python scrape.py javascript
+
+#To store the output to a text file use pipe
+python scrape.py ruby > ruby_orgs
 ```
 
 ### Screenshots :
