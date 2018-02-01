@@ -95,24 +95,14 @@ def scrape():
             'class': 'organization__tag organization__tag--technology'
         }
         )
-        if (not sys.stdout.isatty()):
-            for tag in tags:
-                if user_pref in tag.text:
-                    number = no_of_times(org_name)
-                    print "Name: " + org_name
-                    print "Link: " + org_link
-                    print "No. of times in GSoC: " + str(number + 1) + '\n'
-                    count += 1
-        else:
-            for tag in tags:
-                if user_pref in tag.text:
-                    number = no_of_times(org_name)
-                    print color.default + "Name: " + color.cyan + org_name
-                    print color.default + "Link: " + color.blue + org_link
-                    print(color.default + "No. of times in GSoC: " +
-                          color.yellow + str(number + 1) + '\n' +
-                          color.default)
-                    count += 1
+        for tag in tags:
+            if user_pref in tag.text:
+                number = no_of_times(org_name)
+                print color.default + "Name: " + color.cyan + org_name
+                print color.default + "Link: " + color.blue + org_link
+                print color.default + "No. of times in GSoC: " + \
+                    color.yellow + str(number + 1) + '\n' + color.default
+                count += 1
 
     if count == 0:
         print color.red + "Enter a valid technology name." + color.default
