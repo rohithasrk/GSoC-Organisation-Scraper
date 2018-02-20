@@ -26,6 +26,7 @@ o2013 = open(os.path.join(dir_path, '2013.txt'), 'r').read().split('\n')
 o2014 = open(os.path.join(dir_path, '2014.txt'), 'r').read().split('\n')
 o2015 = open(os.path.join(dir_path, '2015.txt'), 'r').read().split('\n')
 o2016 = open(os.path.join(dir_path, '2016.txt'), 'r').read().split('\n')
+o2017 = open(os.path.join(dir_path, '2017.txt'), 'r').read().split('\n')
 
 # For proxy support
 has_proxy = False
@@ -74,10 +75,10 @@ def scrape():
     user_pref = user_pref.lower()
     user_pref.replace(" ", "")
     count = 0
-    print
 
     response = requests.get(
         url, proxies=proxies) if has_proxy else requests.get(url)
+    
     html = response.content
 
     soup = BeautifulSoup(html)
@@ -101,7 +102,7 @@ def scrape():
                 print color.default + "Name: " + color.cyan + org_name
                 print color.default + "Link: " + color.blue + org_link
                 print color.default + "No. of times in GSoC: " + \
-                    color.yellow + str(number + 1) + '\n' + color.default
+                    color.yellow + str(number) + '\n' + color.default
                 count += 1
 
     if count == 0:
@@ -177,6 +178,8 @@ def no_of_times(org_name):
         if org_name in o2015:
             count += 1
         if org_name in o2016:
+            count += 1
+        if org_name in o2017:
             count += 1
     except Exception as e:
         print(str(e))
