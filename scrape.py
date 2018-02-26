@@ -78,7 +78,6 @@ def scrape():
 
     response = requests.get(
         url, proxies=proxies) if has_proxy else requests.get(url)
-    
     html = response.content
 
     soup = BeautifulSoup(html)
@@ -189,3 +188,4 @@ def no_of_times(org_name):
 
 if __name__ == "__main__":
     scrape()
+    
