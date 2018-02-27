@@ -116,7 +116,8 @@ def scrape():
                         print color.default + "Name: " + color.cyan + org_name
                         print color.default + "Link: " + color.blue + org_link
                         print color.default + "No. of times in GSoC: " + \
-                            color.yellow + str(number + 1) + '\n' + color.default
+                            color.yellow + str(number + 1) + '\n' + \
+                            color.default
                         count += 1
             else:
                 if user_pref in tag.text:
