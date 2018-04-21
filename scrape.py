@@ -2,11 +2,11 @@
 import os
 import signal
 import sys
+import urllib.request
 import warnings
 
-import requests
-
 from bs4 import BeautifulSoup
+
 from resources.pyterm_colors import pyterm_colors
 
 url = "https://summerofcode.withgoogle.com/archive/2017/organizations/"
@@ -14,9 +14,7 @@ default = "https://summerofcode.withgoogle.com"
 prev_def_url = "https://www.google-melange.com/archive/gsoc/"
 url16 = "https://summerofcode.withgoogle.com/archive/2016/organizations/"
 dir_path = os.path.join(
-    os.path.dirname(
-        os.path.realpath(__file__)),
-    'resources')
+    os.path.dirname(os.path.realpath(__file__)), 'resources')
 
 o2009 = open(os.path.join(dir_path, '2009.txt'), 'r').read().split('\n')
 o2010 = open(os.path.join(dir_path, '2010.txt'), 'r').read().split('\n')
@@ -36,7 +34,7 @@ try:
         'https': os.environ['https_proxy'],
     }
     has_proxy = True
-    print "Proxy detected\n"
+    print("Proxy detected\n")
 except KeyError:
     pass
 
@@ -47,8 +45,8 @@ color = pyterm_colors.color()
 warnings.filterwarnings("ignore")
 
 
-def signal_handler(signal, frame):
-    confirmation = raw_input(
+def signal_handler():
+    confirmation = input(
         color.red +
         "Really want to exit (y/n)? " +
         color.default)
@@ -64,21 +62,23 @@ signal.signal(signal.SIGINT, signal_handler)
 
 
 def scrape():
-    if(len(sys.argv) == 2):
+    if len(sys.argv) == 2:
         user_pref = sys.argv[1]
     else:
-        user_pref = raw_input(
+        user_pref = input(
             color.yellow +
             "Enter a technology of preference: " +
             color.default)
     user_pref = user_pref.lower()
     user_pref.replace(" ", "")
     count = 0
-    print
+    print()
 
-    response = requests.get(
-        url, proxies=proxies) if has_proxy else requests.get(url)
-    html = response.content
+    if has_proxy:
+        response = urllib.request.urlopen(url, proxies)
+    else:
+        response = urllib.request.urlopen(url)
+    html = response.read()
 
     soup = BeautifulSoup(html)
     orgs = soup.findAll('li', attrs={'class': 'organization-card__container'})
@@ -87,39 +87,43 @@ def scrape():
         link = org.find('a', attrs={'class': 'organization-card__link'})
         org_name = org['aria-label']
         org_link = default + link['href']
-        response = requests.get(
-            org_link, proxies=proxies) if has_proxy else requests.get(org_link)
-        html = response.content
+        response = urllib.request.urlopen(
+            org_link) if has_proxy else urllib.request.urlopen(
+            org_link)
+        html = response.read()
         soup = BeautifulSoup(html)
         tags = soup.findAll('li', attrs={
             'class': 'organization__tag organization__tag--technology'
-        }
-        )
+        })
+
         for tag in tags:
             if user_pref in tag.text:
                 number = no_of_times(org_name)
-                print color.default + "Name: " + color.cyan + org_name
-                print color.default + "Link: " + color.blue + org_link
-                print color.default + "No. of times in GSoC: " + \
-                    color.yellow + str(number + 1) + '\n' + color.default
+                print(color.default + "Name: " + color.cyan + org_name)
+                print(color.default + "Link: " + color.blue + org_link)
+                print(color.default + "No. of times in GSoC: "
+                      + color.yellow + str(number + 1) + '\n'
+                      + color.default)
                 count += 1
 
     if count == 0:
-        print color.red + "Enter a valid technology name." + color.default
+        print(color.red + "Enter a valid technology name." + color.default)
 
 
 def no_of_times_before_2016(org_name):
     count = 0
     for i in range(2009, 2016):
         year_url = prev_def_url + str(i)
-        response = requests.get(
-            year_url, proxies=proxies) if has_proxy else requests.get(year_url)
-        html = response.content
+        if has_proxy:
+            response = urllib.request.urlopen(year_url)
+        else:
+            response = urllib.request.urlopen(year_url)
+        html = response.read()
         soup = BeautifulSoup(html)
         orgs = soup.findAll('li', attrs={
             'class': 'mdl-list__item mdl-list__item--one-line'
-        }
-        )
+        })
+
         for org in orgs:
             name = org.find('a').text
             if org_name == name:
@@ -130,32 +134,34 @@ def no_of_times_before_2016(org_name):
 
 def orgs_of_an_year(year):
     year_url = prev_def_url + year
-    response = requests.get(
-        year_url,
-        proxies=proxies) if has_proxy else requests.get(year_url)
-    html = response.content
+    if has_proxy:
+        response = urllib.request.urlopen(year_url, proxies)
+    else:
+        response = urllib.request.urlopen(year_url)
+    html = response.read()
     soup = BeautifulSoup(html)
     orgs = soup.findAll('li', attrs={
         'class': 'mdl-list__item mdl-list__item--one-line'
-    }
-    )
+    })
+
     for org in orgs:
         org_name = org.find('a').text
-        print org_name
+        print(org_name)
 
 
 def scrape16():
-    response = requests.get(
-        url16, proxies=proxies) if has_proxy else requests.get(url16)
-    html = response.content
+    response = urllib.request.urlopen(
+        url16, proxies) if has_proxy else urllib.request.urlopen(
+        url16)
+    html = response.read()
     soup = BeautifulSoup(html)
     orgs = soup.findAll('li', attrs={'class': 'organization-card__container'})
     file = open('2016.txt', 'w')
     for org in orgs:
         orgss = org.find('h4').text
-        print orgss
+        print(orgss)
         orgsss = orgss.encode('utf-8')
-        file.write(orgsss+'\n')
+        file.write(orgsss + '\n')
     file.close()
 
 
