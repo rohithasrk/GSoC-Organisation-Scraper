@@ -17,18 +17,19 @@ git clone https://github.com/rohithasrk/GSoC-Organisation-Scraper.git
 cd GSoC-Organisation-Scraper
 
 # Install dependencies
-[sudo] pip install -r requirements.txt
+[sudo] pip2 install -r requirements.txt
 
 # Run the app without giving technology as a command line argument 
-python scrape.py
+python2 scrape.py
 
-#Enter the technology of preference when prompted.
+# Enter the technology of preference when prompted.
+# Example: python
 
 # Run the app by giving technology as a command line argument 
-python scrape.py javascript
+python2 scrape.py javascript
 
 #To store the output to a text file use pipe
-python scrape.py ruby > ruby_orgs
+python2 scrape.py ruby > ruby_orgs
 ```
 
 ### Screenshots :
