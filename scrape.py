@@ -5,8 +5,8 @@ import sys
 import warnings
 
 import requests
-
 from bs4 import BeautifulSoup
+
 from resources.pyterm_colors import pyterm_colors
 
 url = "https://summerofcode.withgoogle.com/archive/2018/organizations/"
@@ -95,11 +95,13 @@ def scrape():
     if count == 0:
         print color.red + "Enter a valid technology name." + color.default
 
+
 def no_of_times(org_name):
     count = 0
     try:
         for year in range(2009, 2018):
-            fil = open(os.path.join(dir_path, '{}.txt'.format(str(year))), 'r').read().split('\n')
+            fil = open(os.path.join(dir_path, '{}.txt'.format(str(year))),
+                       'r').read().split('\n')
             if org_name in fil:
                 count += 1
     except Exception as e:

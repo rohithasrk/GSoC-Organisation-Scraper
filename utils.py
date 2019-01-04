@@ -1,5 +1,20 @@
+import os
+
 import requests
 from bs4 import BeautifulSoup
+
+# For proxy support
+has_proxy = False
+proxies = {}
+try:
+    proxies = {
+        'http': os.environ['http_proxy'],
+        'https': os.environ['https_proxy'],
+    }
+    has_proxy = True
+    print "Proxy detected\n"
+except KeyError:
+    pass
 
 
 def scrape(url):
@@ -12,6 +27,6 @@ def scrape(url):
     for org in orgs:
         org_name = org.find('h4').text
         print org_name
-        org_name= org_name.encode('utf-8')
+        org_name = org_name.encode('utf-8')
         file.write(org_name+'\n')
     file.close()
