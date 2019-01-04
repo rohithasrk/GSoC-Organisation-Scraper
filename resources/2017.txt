@@ -68,7 +68,7 @@ Homebrew
 illumos.org
 INCF
 Inkscape
-Institute of Artificial Intelligence
+Institute for Artificial Intelligence
 Intel Media and Audio for Linux
 Internet Archive
 JBoss Community
@@ -103,7 +103,7 @@ MovingBlocks
 Mozilla
 MuseScore
 National Resource for Network Biology (NRNB)
-Netfilter Project
+Netfilter project
 Nmap Security Scanner
 NumFOCUS
 Open Bioinformatics Foundation
@@ -112,13 +112,13 @@ Open Data Kit
 Open Detection
 Open Genome Informatics
 Open States
-Open Bioinformatics Foundation
+Open Technologies Alliance - GFOSS
 OpenAstronomy
-openCV
+OpenCV
 OpenMRS
 OpenStreetMap
 openSUSE
-openWISP
+OpenWISP
 Oppia Foundation
 OSGeo
 oVirt
