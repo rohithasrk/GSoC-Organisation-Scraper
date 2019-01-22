@@ -3,6 +3,8 @@
 Makes life easier by scraping instead of searching for each and every organisation by name. Also shows number of times that an organisation has appeared in GSoC.
 Used [Requests](http://docs.python-requests.org/en/master/) library of python and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
+## Use Python-*2.7*
+
 ### Requirements :
 + BeautifulSoup
 + Requests
@@ -17,18 +19,19 @@ git clone https://github.com/rohithasrk/GSoC-Organisation-Scraper.git
 cd GSoC-Organisation-Scraper
 
 # Install dependencies
-[sudo] pip install -r requirements.txt
+[sudo] pip2 install -r requirements.txt
 
 # Run the app without giving technology as a command line argument 
-python scrape.py
+python2 scrape.py
 
-#Enter the technology of preference when prompted.
+# Enter the technology of preference when prompted.
+# Example: python
 
 # Run the app by giving technology as a command line argument 
-python scrape.py javascript
+python2 scrape.py javascript
 
 #To store the output to a text file use pipe
-python scrape.py ruby > ruby_orgs
+python2 scrape.py ruby > ruby_orgs
 ```
 
 ### Screenshots :
