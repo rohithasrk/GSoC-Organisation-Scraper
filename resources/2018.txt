@@ -1,0 +1,212 @@
+3DTK
+52° North Initiative for Geospatial Open Source Software GmbH
+AerospaceResearch.net
+aimacode
+Amahi
+AOSSIE - Australian Open Source Software Innovation and Education
+Apache Software Foundation
+Apertium
+Apertus Association
+appleseedhq
+ArduPilot
+BeagleBoard.org Foundation
+Beam Community
+BeeWare Project
+Berkman Klein Center for Internet & Society at Harvard University
+Blender Foundation
+Boost C++ Libraries
+Boston University / XIA
+BRL-CAD
+Canadian Centre for Computational Genomics
+Catrobat
+CCExtractor Development
+Center for Research In Open Source Software (CROSS) at UC Santa Cruz
+CERN-HSF
+CGAL Project
+CHAOSS: Community Health Analytics Open Source Software
+Checker Framework
+CiviCRM LLC
+Classical Language Toolkit
+CLiPS, University of Antwerp
+Cloud Native Computing Foundation (CNCF)
+CloudCV
+coala
+Computational Biology @ University of Nebraska-Lincoln
+Conversations.im
+Cuneiform Digital Library Initiative
+DBpedia
+Debian Project
+Developers Italia
+Digital Impact Alliance
+Django Software Foundation
+Drupal
+Earth Science Information Partners (ESIP)
+Elastic
+Eta
+Fedora Project
+FFmpeg
+FOSSASIA
+FOSSology
+Free and Open Source Silicon Foundation
+Free UK Genealogy
+FreeBSD
+FreeType
+freifunk
+Genes, Genomes and Variation
+GENIVI Alliance
+Gentoo Foundation
+GFOSS - Open Technologies Alliance
+Git
+Global Alliance for Genomics and Health
+GNOME
+GNSS-SDR
+GNU Compiler Collection (GCC)
+GNU Octave
+GNU Project
+GNU Radio
+Godot Engine
+gRPC
+Haiku
+Haskell.org
+Homebrew
+INCF
+Inclusive Design Institute
+Inkscape
+Inria Foundation
+Institute for Artificial Intelligence
+Intel Media And Audio For Linux
+InterMine
+Internet Archive
+Internet Systems Consortium
+JBoss Community
+JdeRobot - Universidad Rey Juan Carlos
+Jenkins project
+JGraphT
+Jitsi
+Joomla!
+JSK Robotics Laboratory / The University of Tokyo
+KDE Community
+Kiwix
+LabLua
+languagetool.org
+LEAP Encryption Access Project
+LibreHealth
+LibreOffice
+libvirt
+LLVM Compiler Infrastructure
+LuaRocks
+MariaDB Foundation
+Matrix.org
+MetaBrainz Foundation Inc.
+Metasploit
+Mixxx DJ Software
+mlpack
+Mobile Robot Programming Toolkit (MRPT)
+Moodle
+MovingBlocks
+Mozilla
+MuseScore
+National Resource for Network Biology (NRNB)
+Neovim
+Netfilter project
+NumFOCUS
+omegaUp.com
+Open Bioinformatics Foundation
+Open Chemistry
+Open Data Kit
+Open Food Facts
+Open Roberta Lab
+Open Source Robotics Foundation
+Open States
+OpenAstronomy
+OpenCensus
+OpenMRS
+OpenSIPS
+OpenStreetMap
+openSUSE
+OpenWISP
+OpnTec
+Oppia Foundation
+OSGeo
+OW2
+OWASP Foundation
+P2PSP.org
+PEcAn Project
+Performance Co-Pilot
+phpBB Forum Software
+phpMyAdmin
+Plone
+PMD
+Pocket Science Lab
+Polly Labs
+PostgreSQL
+Probot
+Public Lab
+Purr Data
+Python HYDRA
+Python Software Foundation
+QEMU
+Quill.org
+R project for statistical computing
+radare
+ReactOS
+Read the Docs
+Red Hen Lab
+RoboComp
+Rocket.Chat
+Rspamd
+RTEMS Project
+Ruby
+Ruby on Rails
+Ruby Science Foundation
+Sage Mathematical Software System
+Scala
+Scilab
+ScummVM
+Seastar
+Software and Computational Systems Lab at LMU Munich
+Space @ Virginia Tech
+SPDX
+Stemformatics
+STE||AR Group
+Stony Brook University Biomedical Informatics
+strace
+Streetmix
+Submitty
+Sugar Labs
+Sustainable Computing Research Group (SCoRe)
+Swift
+SymPy
+Systers Community
+TEAMMATES @ National University of Singapore
+The Center for Connected Learning and Computer-Based Modeling
+The Eclipse Foundation
+The Honeynet Project
+The Java Pathfinder Team
+The Libreswan Project
+The Linux Foundation
+The MacPorts Project
+The Mifos Initiative
+The NetBSD Foundation
+The ns-3 Network Simulator Project
+The Processing Foundation
+The Qt Project
+The syslog-ng project.
+The Vega Visualization Tools by the UW Interactive Data Lab
+The Wine Project
+TimVideos.us
+TLA+
+UCSC Xena
+VideoLAN
+ViSP
+vitrivr
+webpack
+Wikimedia Foundation
+WorldBrain.io - Verifying the Internet
+X.org Foundation
+Xapian Search Engine Library
+XBMC Foundation
+Xi Editor Project
+xpra.org
+XWiki
+Zulip
