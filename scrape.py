@@ -55,13 +55,25 @@ signal.signal(signal.SIGINT, signal_handler)
 def scrape():
     if(len(sys.argv) == 2):
         user_pref = sys.argv[1]
+
+    elif(len(sys.argv) > 2):
+        user_pref = []
+        for l in range(1, len(sys.argv)):
+            user_pref.append(sys.argv[l])
     else:
         user_pref = raw_input(
             color.yellow +
             "Enter a technology of preference: " +
             color.default)
-    user_pref = user_pref.lower()
-    user_pref.replace(" ", "")
+
+    if isinstance(user_pref, list):
+        for u in user_pref:
+            u = u.lower()
+            u.replace(" ", "")
+    else:
+        user_pref = user_pref.lower()
+        user_pref.replace(" ", "")
+
     count = 0
 
     response = requests.get(
@@ -84,16 +96,28 @@ def scrape():
         }
         )
         for tag in tags:
-            if user_pref in tag.text:
-                number = no_of_times(org_name)
-                print color.default + "Name: " + color.cyan + org_name
-                print color.default + "Link: " + color.blue + org_link
-                print color.default + "No. of times in GSoC: " + \
-                    color.yellow + str(number + 1) + '\n' + color.default
-                count += 1
+            if isinstance(user_pref, list):
+                for u in user_pref:
+                    if u in tag.text:
+                        number = no_of_times(org_name)
+                        print color.default + "Technology:" + color.cyan + u
+                        print color.default + "Name: " + color.cyan + org_name
+                        print color.default + "Link: " + color.blue + org_link
+                        print color.default + "No. of times in GSoC: " + \
+                            color.yellow + str(number + 1) + '\n' + \
+                            color.default
+                        count += 1
+            else:
+                if user_pref in tag.text:
+                    number = no_of_times(org_name)
+                    print color.default + "Name: " + color.cyan + org_name
+                    print color.default + "Link: " + color.blue + org_link
+                    print color.default + "No. of times in GSoC: " + \
+                        color.yellow + str(number + 1) + '\n' + color.default
+                    count += 1
 
-    if count == 0:
-        print color.red + "Enter a valid technology name." + color.default
+        if count == 0:
+            print color.red + "Enter a valid technology name." + color.default
 
 
 def no_of_times(org_name):
