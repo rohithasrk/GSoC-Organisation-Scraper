@@ -25,7 +25,7 @@ try:
         'https': os.environ['https_proxy'],
     }
     has_proxy = True
-    print "Proxy detected\n"
+    print("Proxy detected\n")
 except KeyError:
     pass
 
@@ -37,7 +37,7 @@ warnings.filterwarnings("ignore")
 
 
 def signal_handler(signal, frame):
-    confirmation = raw_input(
+    confirmation = input(
         color.red +
         "Really want to exit (y/n)? " +
         color.default)
@@ -56,7 +56,7 @@ def scrape():
     if(len(sys.argv) == 2):
         user_pref = sys.argv[1]
     else:
-        user_pref = raw_input(
+        user_pref = input(
             color.yellow +
             "Enter a technology of preference: " +
             color.default)
@@ -86,14 +86,14 @@ def scrape():
         for tag in tags:
             if user_pref in tag.text:
                 number = no_of_times(org_name)
-                print color.default + "Name: " + color.cyan + org_name
-                print color.default + "Link: " + color.blue + org_link
-                print color.default + "No. of times in GSoC: " + \
-                    color.yellow + str(number + 1) + '\n' + color.default
+                print(color.default + "Name: " + color.cyan + org_name)
+                print(color.default + "Link: " + color.blue + org_link)
+                print(color.default + "No. of times in GSoC: " + \
+                    color.yellow + str(number + 1) + '\n' + color.default)
                 count += 1
 
     if count == 0:
-        print color.red + "Enter a valid technology name." + color.default
+        print(color.red + "Enter a valid technology name." + color.default)
 
 
 def no_of_times(org_name):
