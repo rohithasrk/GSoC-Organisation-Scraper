@@ -9,7 +9,8 @@ from bs4 import BeautifulSoup
 
 from resources.pyterm_colors import pyterm_colors
 
-if sys.version[0]=="3": raw_input=input
+if sys.version[0] == "3":
+    raw_input = input
 
 url = "https://summerofcode.withgoogle.com/archive/2018/organizations/"
 default = "https://summerofcode.withgoogle.com"
@@ -27,7 +28,7 @@ try:
         'https': os.environ['https_proxy'],
     }
     has_proxy = True
-    print ("Proxy detected\n")
+    print("Proxy detected\n")
 except KeyError:
     pass
 
@@ -88,14 +89,14 @@ def scrape():
         for tag in tags:
             if user_pref in tag.text:
                 number = no_of_times(org_name)
-                print (color.default + "Name: " + color.cyan + org_name)
-                print (color.default + "Link: " + color.blue + org_link)
-                print (color.default + "No. of times in GSoC: " + \
-                    color.yellow + str(number + 1) + '\n' + color.default)
+                print(color.default + "Name: " + color.cyan + org_name)
+                print(color.default + "Link: " + color.blue + org_link)
+                print(color.default + "No. of times in GSoC: " +
+                      color.yellow + str(number + 1) + '\n' + color.default)
                 count += 1
 
     if count == 0:
-        print (color.red + "Enter a valid technology name." + color.default)
+        print(color.red + "Enter a valid technology name." + color.default)
 
 
 def no_of_times(org_name):
