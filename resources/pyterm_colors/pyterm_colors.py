@@ -22,22 +22,22 @@ class color:
     def setc(self, colo):
         colo = colo.lower()
         if colo == "default":
-            print self.default
+            print (self.default)
         elif colo == "black":
-            print self.black
+            print (self.black)
         elif colo == "red":
-            print self.red
+            print (self.red)
         elif colo == "green":
-            print self.green
+            print (self.green)
         elif colo == "yellow":
-            print self.yellow
+            print (self.yellow)
         elif colo == "blue":
-            print self.blue
+            print (self.blue)
         elif colo == "magenta":
-            print self.magenta
+            print (self.magenta)
         elif colo == "cyan":
-            print self.cyan
+            print (self.cyan)
         elif colo == "white":
-            print self.white
+            print (self.white)
         else:
-            print self.red
+            print (self.red)
