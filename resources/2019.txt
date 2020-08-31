@@ -12,7 +12,7 @@ Ardupilot.org
 Bazel
 BeagleBoard.org
 Berkman Klein Center for Internet and Society
-"Biomedical Informatics, Emory University"
+Biomedical Informatics, Emory University
 Blender Foundation
 Boost C++
 BRL-CAD
@@ -30,7 +30,7 @@ Chapel
 Checker Framework
 CircuitVerse.org
 CiviCRM
-"CLiPS, University of Antwerp"
+CLiPS, University of Antwerp
 Cloud Native Computing Foundation (CNCF)
 CloudCV
 coala
@@ -57,7 +57,7 @@ Free and Open Source Silicon Foundation
 FreeBSD
 FreeType
 freifunk
-"Genes, Genomes and Variation"
+Genes, Genomes and Variation
 GENIVI Alliance
 Gentoo Foundation
 Git
