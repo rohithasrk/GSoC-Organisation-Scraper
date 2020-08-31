@@ -5,7 +5,7 @@ Amahi
 Android Graphics Tools Team
 AOSSIE - Australian Open Source Software Innovation and Education
 Apertium
-apertus¯ Association
+apertus Association
 API Client Tools at Google
 appleseedhq
 Ardupilot.org
@@ -75,7 +75,7 @@ Haskell.Org
 Hydra Ecosystem
 INCF
 Inkscape
-Institut fÅr Angewandte Informatik (InfAI) e.V.
+Institut f√ºr Angewandte Informatik (InfAI) e.V.
 Intel Media And Audio For Linux
 InterMine
 Internet Archive
