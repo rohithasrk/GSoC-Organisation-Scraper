@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 from resources.pyterm_colors import pyterm_colors
 
-url = "https://summerofcode.withgoogle.com/archive/2018/organizations/"
+url = "https://summerofcode.withgoogle.com/archive/2019/organizations/"
 default = "https://summerofcode.withgoogle.com"
 dir_path = os.path.join(
     os.path.dirname(
@@ -99,7 +99,7 @@ def scrape():
 def no_of_times(org_name):
     count = 0
     try:
-        for year in range(2009, 2018):
+        for year in range(2009, 2020):
             fil = open(os.path.join(dir_path, '{}.txt'.format(str(year))),
                        'r').read().split('\n')
             if org_name in fil:
