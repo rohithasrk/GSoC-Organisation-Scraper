@@ -99,7 +99,7 @@ def scrape():
 def no_of_times(org_name):
     count = 0
     try:
-        for year in range(2009, 2020):
+        for year in range(2009, 2018):
             fil = open(os.path.join(dir_path, '{}.txt'.format(str(year))),
                        'r').read().split('\n')
             if org_name in fil:
