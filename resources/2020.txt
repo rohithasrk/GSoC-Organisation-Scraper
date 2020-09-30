@@ -1,0 +1,198 @@
+AboutCode.org
+Academy Software Foundation (ASWF)
+Accord Project
+AerospaceResearch.net
+afl++
+Amahi
+Android Graphics Tools Team
+AnitaB.org Open Source
+AOSSIE
+Apertium
+apertusø Association
+appleseed
+Arduino
+ArduPilot
+BeagleBoard.org
+BioGears
+Blender Foundation
+Boost C++
+BRL-CAD
+caMicroscope
+Canadian Centre for Computational Genomics
+Casbin
+Catrobat
+CCExtractor Development
+Ceph Foundation
+CERN-HSF
+CGAL Project
+CHAOSS
+Chapel
+Checker Framework
+Checkstyle
+CircuitVerse.org
+CiviCRM
+Cloud Native Computing Foundation (CNCF)
+CloudCV
+Continuous Delivery Foundation
+coreboot
+Creative Commons
+CRIU
+Cuneiform Digital Library Initiative (CDLI)
+Dart
+DBpedia
+Debian
+Digital Impact Alliance (DIAL) at UN Foundation
+Django Software Foundation
+Drupal
+Eclipse Foundation
+Elastic
+Embox
+Erlang Ecosystem Foundation
+Fedora Project
+FFmpeg
+FOSSology
+FrameNet Brasil (UFJF)
+Free and Open Source Silicon Foundation
+FreeBSD Project
+FreeType
+FRRouting
+GDevelop
+Gentoo Foundation
+GeomScale
+Git
+Global Alliance for Genomics and Health
+GNOME
+GNSS-SDR
+GNU Compiler Collection (GCC)
+GNU Octave
+GNU Radio
+Godot Engine
+GPAC
+GraphQL Foundation
+Haiku
+Haskell.org
+Hazelcast
+Homebrew
+Hydra Ecosystem
+INCF
+Inclusive Design Institute
+Inkscape
+Intel Media And Audio For Linux
+Internet Archive
+JBoss Community
+JdeRobot - Universidad Rey Juan Carlos
+Jenkins project
+Joplin
+Kapitan
+KDE Community
+Kiwix
+Kodi Foundation
+Kubeflow
+LabLua
+Libre Space Foundation
+LibreHealth
+LibreOffice
+libvirt
+Linkerd
+Liquid Galaxy project
+lowRISC
+MacPorts
+MariaDB Foundation
+Matrix
+MBDyn
+MDAnalysis
+MetaBrainz Foundation Inc.
+Metasploit
+MGGG Redistricting Lab
+MIT App Inventor
+Mixxx
+mlpack
+Moira
+MoveIt
+Mozilla
+MuseScore
+mypy
+MZmine
+National Resource for Network Biology (NRNB)
+Neovim
+Netty
+NumFOCUS
+NV Access
+Open Bioinformatics Foundation (OBF)
+Open Chemistry
+Open Genome Informatics
+Open Roberta
+Open Source Robotics Foundation
+OpenAstronomy
+OpenCV
+OpenEMR
+OpenHMD
+OpenMined
+OpenMRS
+OpenRefine
+OpenStreetMap
+openSUSE Project
+OpenWISP
+Oppia Foundation
+Orcasound
+OSGeo
+OWASP Foundation
+PEcAn Project
+Percona
+Performance Co-Pilot
+Pitivi
+Point Cloud Library
+PostgreSQL
+Postman
+Processing Foundation
+Purr Data
+Python Software Foundation
+QEMU
+Qubes OS
+R Project for Statistical Computing
+Radare
+ReactOS
+Red Hen Lab
+RoboComp
+Rocket.Chat
+RTEMS Project
+Ruby
+SageMath
+Samba
+SCoRe Lab
+ScummVM
+Shogun
+SPDX
+Ste||ar group
+strace
+Submitty
+Sugar Labs
+Swift
+SymbiFlow
+SymPy
+Synfig
+syslog-ng
+TARDIS-SN
+TensorFlow
+The Apache Software Foundation
+The GNU Project
+The Honeynet Project
+The Java Pathfinder Team
+The Julia Language
+The Libreswan Project
+The Linux Foundation
+The LLVM Compiler Infrastructure
+The Mifos Initiative
+The NetBSD Foundation
+The ns-3 Network Simulator Project
+The Terasology Foundation
+The Wine Project
+VideoLAN
+webpack
+Wikimedia Foundation
+Wireshark
+X.Org Foundation
+Xapian Search Engine Library
+XMPP Standards Foundation
+XWiki
+Zulip
