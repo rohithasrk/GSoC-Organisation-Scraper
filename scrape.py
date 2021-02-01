@@ -12,7 +12,7 @@ from resources.pyterm_colors import pyterm_colors
 if sys.version[0] == "3":
     raw_input = input
 
-url = "https://summerofcode.withgoogle.com/archive/2018/organizations/"
+url = "https://summerofcode.withgoogle.com/archive/2019/organizations/"
 default = "https://summerofcode.withgoogle.com"
 dir_path = os.path.join(
     os.path.dirname(
